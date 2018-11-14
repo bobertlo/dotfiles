@@ -7,7 +7,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 export GOPATH="$HOME/go"
-export PATH="$GOROOT/bin:$PATH"
+export PATH="$GOPATH/bin:$PATH"
 
 export PATH="$HOME/bin:$PATH"
 
