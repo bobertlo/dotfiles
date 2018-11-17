@@ -1,0 +1,12 @@
+# Default rc.local for void; add your custom commands here.
+#
+# This is run by runit in stage 2 before the services are executed
+# (see /etc/runit/2).
+
+rmmod pcspkr
+
+rfkill block bluetooth                                             
+
+echo -n 100 > /sys/devices/platform/i8042/serio1/serio2/speed      
+echo -n 150 > /sys/devices/platform/i8042/serio1/serio2/speed      
+echo -n 1 > /sys/devices/platform/i8042/serio1/serio2/press_to_select
