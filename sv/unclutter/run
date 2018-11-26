@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec unclutter -jitter 10 -idle 2

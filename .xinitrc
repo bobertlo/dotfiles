@@ -1,5 +1,2 @@
-xrdb -load "$HOME/.Xresources"
-xbindkeys
-slstatus &
-unclutter -jitter 10 -idle 3 &
-dwm
+xrdb -merge "$HOME/.Xresources"
+exec runsvdir -P ~/service/x

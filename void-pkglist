@@ -4,7 +4,9 @@ dwm
 git
 slstatus
 tmux
+unclutter
 vim
 wifish
+xrdb
 xbindkeys
 xorg-minimal
