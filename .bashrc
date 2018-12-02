@@ -15,6 +15,6 @@ PS1='[\u@\h \W]$(parse_git_branch)\$ '
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:$HOME/local/bin:$PATH"
 
 alias vi='vim'
