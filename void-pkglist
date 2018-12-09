@@ -1,8 +1,9 @@
 acpilight
-dmenu
-dwm
+compton
 git
-slstatus
+i3
+i3status
+irssi
 tmux
 unclutter
 vim
