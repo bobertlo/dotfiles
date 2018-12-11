@@ -1,4 +1,5 @@
 acpilight
+aspell
 compton
 git
 i3-gaps
@@ -9,6 +10,7 @@ tmux
 unclutter
 rxvt-unicode
 vim
+vmdfmt
 wifish
 xrdb
 xbindkeys
