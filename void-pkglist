@@ -7,8 +7,9 @@ i3status
 irssi
 liberation-fonts-ttf
 tmux
-unclutter
+unclutter-xfixes
 rxvt-unicode
+slock
 vim
 vmdfmt
 wifish

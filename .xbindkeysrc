@@ -54,3 +54,9 @@
 
 "xbacklight -dec 5"
   XF86MonBrightnessDown
+
+"chromium"
+  Mod4 + n
+
+"slock"
+  Mod4 + i
