@@ -1,0 +1,8 @@
+#!/bin/sh
+
+go test -coverprofile=c.out
+go tool cover -func=c.out
+
+if [ "$1" = "browser" ]; then
+	go tool cover -html=c.out
+fi
