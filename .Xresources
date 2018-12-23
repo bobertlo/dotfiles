@@ -13,7 +13,7 @@ Xft.rgba: rgb
 
 URxvt.font: xft:liberationmono:pixelsize=12
 URxvt.depth: 32
-URxvt.background: [90]#1d1f21
+URxvt.background: [95]#1d1f21
 URxvt.scrollBar: false
 
 ! special
