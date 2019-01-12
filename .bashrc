@@ -15,7 +15,7 @@ PS1='[\u@\h \W]$(parse_git_branch)\$ '
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 
-export PATH="$HOME/bin:$HOME/local/bin:$PATH"
+export PATH="$HOME/bin:$HOME/local/bin:$HOME/.local/bin:$PATH"
 
 alias vi='vim'
 alias tssh='TERM=xterm ssh'
