@@ -10,10 +10,10 @@ tmux
 unclutter-xfixes
 rxvt-unicode
 slock
+sxhkd
 vim
 vmdfmt
 wifish
 xrdb
-xbindkeys
 xorg-fonts
 xorg-minimal
