@@ -1,20 +1,30 @@
-personal_ws-1.1 en 19 
+personal_ws-1.1 en 29 
 nonfree
+gofmt
+xorg
+mdbook
 conf
 repo
 usr
 multilib
+vmdfmt
 xdbg
+formatter
+OpenGL
 RSA
 cp
 repodata
 redistributable
 sed
+filepath
 cron
 coredump
 src
 README
 xtools
+nvidia
+UUID
+sudo
 mkdir
 glibc
 xbps
