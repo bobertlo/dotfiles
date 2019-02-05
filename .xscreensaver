@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.42 for robert on Sun Feb  3 00:09:26 2019.
+# Written by xscreensaver-demo 5.42 for robert on Tue Feb  5 03:56:27 2019.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:05:00
@@ -35,7 +35,7 @@ chooseRandomImages: False
 imageDirectory:	
 
 mode:		one
-selected:	88
+selected:	142
 
 textMode:	file
 textLiteral:	XScreenSaver
@@ -132,7 +132,7 @@ programs:								      \
 				wander -root				    \n\
 -				webcollage -root			    \n\
 -				xflame -root				    \n\
-				xmatrix -root				    \n\
+				xmatrix -root -small -density 19	    \n\
   GL: 				gflux -root				    \n\
 -				nerverot -root				    \n\
 				xrayswarm -root				    \n\
@@ -186,7 +186,8 @@ programs:								      \
 				fontglide -root				    \n\
   GL: 				gleidescope -root			    \n\
   GL: 				glknots -root				    \n\
-  GL: 				glmatrix -root				    \n\
+  GL: 				glmatrix -root -delay 50442 -density 29	      \
+				  -speed 1.4982 -no-rotate		    \n\
 - GL: 				glslideshow -root			    \n\
   GL: 				hypertorus -root			    \n\
 - GL: 				jigglypuff -root			    \n\
