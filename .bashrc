@@ -20,4 +20,9 @@ export PATH="$HOME/bin:$HOME/local/bin:$HOME/.local/bin:$PATH"
 alias vi='vim'
 alias tssh='TERM=xterm ssh'
 
+alias '..'='cd ..'
+alias '...'='cd ../..'
+alias '....'='cd ../../..'
+alias '.....'='cd ../../../..'
+
 export EDITOR=vim
