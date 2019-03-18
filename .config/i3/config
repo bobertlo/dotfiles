@@ -5,6 +5,8 @@
 # this file and re-run i3-config-wizard(1).
 #
 
+exec xrandr --output LVDS1 --auto --output VGA1 --right-of LVDS1
+
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
@@ -182,4 +184,4 @@ bar {
         status_command i3status
 }
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
