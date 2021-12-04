@@ -16,11 +16,4 @@ export PATH="$GOPATH/bin:$PATH"
 
 export PATH="$HOME/bin:$HOME/local/bin:$HOME/.local/bin:$PATH"
 
-alias '..'='cd ..'
-alias '...'='cd ../..'
-alias '....'='cd ../../..'
-alias '.....'='cd ../../../..'
-
 export EDITOR=vi
-
-alias jssh="ssh -L 8888:localhost:8888"
